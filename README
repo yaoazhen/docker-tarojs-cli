@@ -1,0 +1,10 @@
+# COMMAND
+docker build --build-arg VERSION=2.0.5 -t acrossclub/tarojs-cli:2.0.5 .
+docker build --build-arg VERSION=2.0.6 -t acrossclub/tarojs-cli:2.0.6 .
+
+docker push acrossclub/tarojs-cli:2.0.5
+docker push acrossclub/tarojs-cli:2.0.6
+
+# 使用
+docker pull acrossclub/tarojs-cli:2.0.5
+docker pull acrossclub/tarojs-cli:2.0.6
