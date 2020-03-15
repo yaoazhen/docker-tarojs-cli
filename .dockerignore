@@ -1,0 +1,15 @@
+# OS generated files #
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.git
+.gitignore
+*Dockerfile*
+*docker-compose*
+node_modules
+Jenkinsfile
+
+README.md
