@@ -14,3 +14,4 @@ RUN npm set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass
 RUN npm set electron_mirror http://cdn.npm.taobao.org/dist/electron/
 
 RUN npm install -g @tarojs/cli@${VERSION}
+RUN taro -- version
